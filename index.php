@@ -17,11 +17,11 @@
         <option value="add">Add</option>
         <option value="sub">Subtract</option>
       </select>
-      <input type="text" name="num2" placeholder="Number2">
+      <input type="text" name="num02" placeholder="Number2">
       <button type="submit">Calculate</button>
     </form>
 
-    <p>This is a paragrafff</p>
+    <p>This is a paragraffffffffffffff</p>
     
     <?php
       include 'test.php';
