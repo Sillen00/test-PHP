@@ -10,20 +10,14 @@
 
     <h1 class="h1an">Hello PHP!</h1>
 
+    <form action="functions.php" method="get">
+      <input type="text" name="num01" placeholder="Number1">
+    </form>
+
     <p>This is a paragrafff</p>
     
     <?php
-
-      $someInfo;
-      $number = 1;
-      // Const variabler skrivs med stora bokstäver för att hålla kolla på vad som är vad.
-      CONST PI = 3.14;
-      $myName = "Simon ";
-      $myLastname = "Bson"; 
-
-      $array = ["Äpple", "Banan", "Päron"];
-      
-      $fullName = $myName . $myLastname;
+      include 'test.php';
 
       // Detta är en kommentar som inte kommer synas.
       echo "Detta är en echo paragraf som kommer visa mitt namn efter: ";
