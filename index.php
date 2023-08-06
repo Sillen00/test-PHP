@@ -12,6 +12,13 @@
 
     <form action="functions.php" method="get">
       <input type="text" name="num01" placeholder="Number1">
+      <select name="oper" >
+        <label>Choose operation!</label>
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+      </select>
+      <input type="text" name="num2" placeholder="Number2">
+      <button type="submit">Calculate</button>
     </form>
 
     <p>This is a paragrafff</p>
